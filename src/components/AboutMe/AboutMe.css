@@ -1,0 +1,22 @@
+.aboutMe {
+  width: 100%;
+  background: #ffb400;
+  min-height: 300px;
+}
+.aboutMe__container {
+  width: 50%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #fff;
+  text-align: center;
+}
+.aboutMe__container h2 {
+  font-size: 2rem;
+  margin-top: 40px;
+}
+.aboutMe__container p {
+  font-size: 1.25rem;
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
