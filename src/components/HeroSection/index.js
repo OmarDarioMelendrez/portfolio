@@ -5,7 +5,7 @@ import HeroImg from '../../images/hero.svg'
 
 function HeroSection() {
   return (
-    <div className='hero__container'>
+    <div className='hero__container' id='hero'>
       <div className='content__wrapper'>
         <div className='hero__left'>
           <span className='textHome'>

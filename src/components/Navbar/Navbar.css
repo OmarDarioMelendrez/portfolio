@@ -58,6 +58,10 @@
   border-bottom: 4px solid #fff;
   transition: all 0.2s ease-out;
 }
+.nav-links.active {
+  border-bottom: 4px solid #fff;
+  transition: all 0.2s ease-out;
+}
 
 .nav-links-mobile {
   display: none;
@@ -87,6 +91,10 @@
     opacity: 1;
     transition: all 0.5s ease;
     padding: 0;
+  }
+  .nav-links.active {
+    border-bottom: none;
+    transition: all 0.2s ease-out;
   }
 
   .nav-menu.active {

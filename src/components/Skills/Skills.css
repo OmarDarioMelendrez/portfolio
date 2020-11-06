@@ -9,6 +9,7 @@
   border-radius: 10px;
   border: 1px solid #e6ecf8;
   margin: -100px auto 30px;
+  padding: 0 10px;
   box-shadow: 0 5px 5px 0 rgba(245, 167, 0, 0.4), 0 0 0 1px #e6ecf8;
 }
 .skills__container h3 {

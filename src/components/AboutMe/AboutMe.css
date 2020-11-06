@@ -12,7 +12,7 @@
   text-align: center;
 }
 .aboutMe__container h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-top: 40px;
 }
 .aboutMe__container p {
@@ -27,5 +27,10 @@
     padding: 2rem;
     color: #fff;
     text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .aboutMe__container h2 {
+    font-size: 2rem;
   }
 }

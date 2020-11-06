@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import ProjectItem from '../ProjectItem'
 import './Projects.css'
 //importando imagenes
@@ -6,10 +6,17 @@ import ImgProject1 from '../../images/proyecto1.jpg'
 import ImgProject2 from '../../images/proyecto2.jpg'
 import ImgProject3 from '../../images/proyecto3.jpg'
 import ImgProject4 from '../../images/proyecto4.jpg'
+import ImgProject5 from '../../images/proyecto5.jpg'
+import {MdArrowForward, MdKeyboardArrowRight} from 'react-icons/md'
 
 function Projects() {
+  const [hover, setHover] = useState(false)
+
+  const onHover = () => {
+    setHover(!hover)
+  }
   return (
-    <section className='projects'>
+    <section className='projects' id='projects'>
       <div className='projects__container'>
         <h3>Mis proyectos</h3>
         <p>
@@ -21,6 +28,14 @@ function Projects() {
             imageAlt={'Vazto bank'}
             title={'Practica de maquetado en react + styled components'}
             link={'https://vazto-bank.netlify.app/'}
+          />
+          <ProjectItem
+            image={ImgProject5}
+            imageAlt={'Menú rosanegra'}
+            title={
+              'Menú digital restaurante + código QR - Gatsby.js - Responsive'
+            }
+            link={'http://rosanegra1000.com/'}
           />
           <ProjectItem
             image={ImgProject4}
@@ -42,6 +57,23 @@ function Projects() {
             }
             link={'https://casita-de-holly.netlify.app/'}
           />
+        </div>
+        <div className='button__container'>
+          <a
+            href='https://www.linkedin.com/in/omar-dario-melendrez/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <button
+              type='button'
+              className='git-button'
+              onMouseEnter={onHover}
+              onMouseLeave={onHover}
+            >
+              Contactame
+              {hover ? <MdArrowForward /> : <MdKeyboardArrowRight />}{' '}
+            </button>
+          </a>
         </div>
       </div>
     </section>
