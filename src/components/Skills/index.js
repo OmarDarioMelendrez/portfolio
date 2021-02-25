@@ -10,9 +10,7 @@ import {
   FaWordpressSimple,
   FaNodeJs
 } from 'react-icons/fa'
-import Redux from '../../images/redux.png'
 import Gatsby from '../../images/gatsby.svg'
-import Webpack from '../../images/webpack.svg'
 import './Skills.css'
 
 function Skills() {
