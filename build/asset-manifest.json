@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b67578e5.chunk.css",
+    "main.js": "/static/js/main.f86819d5.chunk.js",
+    "main.js.map": "/static/js/main.f86819d5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4b98c789.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4b98c789.js.map",
+    "static/js/2.a69408c9.chunk.js": "/static/js/2.a69408c9.chunk.js",
+    "static/js/2.a69408c9.chunk.js.map": "/static/js/2.a69408c9.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b67578e5.chunk.css.map": "/static/css/main.b67578e5.chunk.css.map",
+    "static/js/2.a69408c9.chunk.js.LICENSE.txt": "/static/js/2.a69408c9.chunk.js.LICENSE.txt",
+    "static/media/canadamoda.a9455d6c.jpg": "/static/media/canadamoda.a9455d6c.jpg",
+    "static/media/gatsby.3de91f63.svg": "/static/media/gatsby.3de91f63.svg",
+    "static/media/hero.2a1ab2b2.svg": "/static/media/hero.2a1ab2b2.svg",
+    "static/media/proyecto1.5705ac87.jpg": "/static/media/proyecto1.5705ac87.jpg",
+    "static/media/proyecto2.69bfbfc8.jpg": "/static/media/proyecto2.69bfbfc8.jpg",
+    "static/media/proyecto3.55d9253a.jpg": "/static/media/proyecto3.55d9253a.jpg",
+    "static/media/proyecto5.8d5fc022.jpg": "/static/media/proyecto5.8d5fc022.jpg",
+    "static/media/redux.ecce4525.png": "/static/media/redux.ecce4525.png",
+    "static/media/webpack.8fe29a01.svg": "/static/media/webpack.8fe29a01.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4b98c789.js",
+    "static/js/2.a69408c9.chunk.js",
+    "static/css/main.b67578e5.chunk.css",
+    "static/js/main.f86819d5.chunk.js"
+  ]
+}
