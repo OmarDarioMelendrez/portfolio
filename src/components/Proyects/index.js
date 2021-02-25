@@ -5,7 +5,7 @@ import './Projects.css'
 import ImgProject1 from '../../images/proyecto1.jpg'
 import ImgProject2 from '../../images/proyecto2.jpg'
 import ImgProject3 from '../../images/proyecto3.jpg'
-import ImgProject4 from '../../images/proyecto4.jpg'
+import ImgProject4 from '../../images/canadamoda.jpg'
 import ImgProject5 from '../../images/proyecto5.jpg'
 import {MdArrowForward, MdKeyboardArrowRight} from 'react-icons/md'
 
@@ -39,9 +39,9 @@ function Projects() {
           />
           <ProjectItem
             image={ImgProject4}
-            imageAlt={'Vazto Travel'}
-            title={'Maquetado de sitio web de viajes react'}
-            link={'https://vaztotravel.netlify.app/'}
+            imageAlt={'Canada Moda'}
+            title={'Realizando e-commerce con tiendanube.'}
+            link={'https://tiendacanadamoda.com.ar/'}
           />
           <ProjectItem
             image={ImgProject2}

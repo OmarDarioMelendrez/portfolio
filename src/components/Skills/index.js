@@ -7,6 +7,8 @@ import {
   FaJs,
   FaReact,
   FaSass,
+  FaWordpressSimple,
+  FaNodeJs
 } from 'react-icons/fa'
 import Redux from '../../images/redux.png'
 import Gatsby from '../../images/gatsby.svg'
@@ -44,22 +46,20 @@ function Skills() {
                 <FaReact /> React.js
               </li>
               <li>
-                <img src={Redux} alt='technologie icon' /> Redux
+                <img src={Gatsby} alt='technology icon' /> Gatsby
               </li>
               <li>
-                <img src={Gatsby} alt='technologie icon' /> Gatsby
+                <FaWordpressSimple /> Wordpress
               </li>
             </ul>
           </div>
           <div className='col'>
             <ul className='nav-skills'>
+              <li><FaNodeJs /> Nodejs</li>
               <li>Apirest</li>
               <li>GraphQl</li>
               <li>
                 <FaGithub /> Git y Github
-              </li>
-              <li>
-                <img src={Webpack} alt='technologie icon' /> Webpack
               </li>
             </ul>
           </div>
