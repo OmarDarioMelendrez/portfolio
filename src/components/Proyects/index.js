@@ -7,6 +7,7 @@ import ImgProject2 from '../../images/proyecto2.jpg'
 import ImgProject3 from '../../images/proyecto3.jpg'
 import ImgProject4 from '../../images/canadamoda.jpg'
 import ImgProject5 from '../../images/proyecto5.jpg'
+import ImgProject6 from '../../images/proyecto6.jpg'
 import {MdArrowForward, MdKeyboardArrowRight} from 'react-icons/md'
 
 function Projects() {
@@ -23,6 +24,12 @@ function Projects() {
           Estos proyectos son algunos de mis trabajos freelance y personales.
         </p>
         <div className='projects__wrapper'>
+          <ProjectItem
+            image={ImgProject6}
+            imageAlt={'Hawks agencia de marketing'}
+            title={'Sitio con html, sass, js y php'}
+            link={'https://hawksagencia.com/'}
+          />
           <ProjectItem
             image={ImgProject3}
             imageAlt={'Vazto bank'}
