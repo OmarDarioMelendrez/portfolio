@@ -24,14 +24,17 @@ function HeroSection() {
                   .type('Apasionado')
                   .pause(750)
                   .delete(10)
-                  .type('Dedicado')
-                  .pause(750)
-                  .delete(8)
                   .type('Responsable')
                   .pause(750)
                   .delete(11)
+                  .type('Backend')
+                  .pause(750)
+                  .delete(8)
+                  .type('Frontend')
+                  .pause(750)
+                  .delete(8)
                   .pause(500)
-                  .type('Desarrollador Front End.')
+                  .type('Desarrollador Fullstack.')
                 return instance
               }}
             />
