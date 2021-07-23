@@ -58,7 +58,9 @@ function Skills() {
 								<FaNodeJs /> Nodejs
 							</li>
 							<li>APIREST</li>
-							<FaDatabase /> MongoDB
+							<li>
+								<FaDatabase /> MongoDB
+							</li>
 							<li>
 								<FaDatabase /> Postgresql
 							</li>
