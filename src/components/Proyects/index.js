@@ -71,7 +71,7 @@ function Projects() {
             title={
               'Juego web interactivo creado con html, css, js'
             }
-            link={'https://lacasitadeholly.netlify.app'}
+            link={'https://simon-dice-javascript.netlify.app/'}
           />
         </div>
         <div className='button__container'>
