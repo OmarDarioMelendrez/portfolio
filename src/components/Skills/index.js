@@ -1,15 +1,13 @@
 import React from "react";
 import {
-	FaBootstrap,
 	FaCss3,
 	FaGithub,
 	FaHtml5,
 	FaJs,
 	FaReact,
-	FaSass,
 	FaNodeJs,
-	FaDatabase,
 } from "react-icons/fa";
+import {SiMaterialUi, SiMongodb, SiPostgresql,SiAmazonaws, SiJest} from 'react-icons/si'
 import Gatsby from "../../images/gatsby.svg";
 import "./Skills.css";
 
@@ -28,24 +26,24 @@ function Skills() {
 								<FaCss3 /> Css
 							</li>
 							<li>
-								<FaSass /> Sass
+								<FaJs /> Javascript
 							</li>
 							<li>
-								<FaBootstrap /> Bootstrap
+								<SiMaterialUi /> MaterialUi
 							</li>
+
 						</ul>
 					</div>
 					<div className="col col-middle">
 						<ul className="nav-skills">
 							<li>
-								<FaJs /> Javascript
-							</li>
-							<li>
 								<FaReact /> React.js
 							</li>
 							<li>
-								<img src={Gatsby} alt="technology icon" />{" "}
-								Gatsby
+								<SiAmazonaws /> Aws
+							</li>
+							<li>
+								<SiJest /> Jest
 							</li>
 							<li>
 								<FaGithub /> Git y Github
@@ -59,10 +57,10 @@ function Skills() {
 							</li>
 							<li>APIREST</li>
 							<li>
-								<FaDatabase /> MongoDB
+								<SiMongodb /> MongoDB
 							</li>
 							<li>
-								<FaDatabase /> Postgresql
+								<SiPostgresql /> Postgresql
 							</li>
 						</ul>
 					</div>
