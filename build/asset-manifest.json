@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.febc527a.chunk.css",
-    "main.js": "/static/js/main.03f6bdfc.chunk.js",
-    "main.js.map": "/static/js/main.03f6bdfc.chunk.js.map",
+    "main.js": "/static/js/main.019e737d.chunk.js",
+    "main.js.map": "/static/js/main.019e737d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.14d8106f.js",
     "runtime-main.js.map": "/static/js/runtime-main.14d8106f.js.map",
     "static/js/2.24857d5b.chunk.js": "/static/js/2.24857d5b.chunk.js",
@@ -11,7 +11,6 @@
     "static/css/main.febc527a.chunk.css.map": "/static/css/main.febc527a.chunk.css.map",
     "static/js/2.24857d5b.chunk.js.LICENSE.txt": "/static/js/2.24857d5b.chunk.js.LICENSE.txt",
     "static/media/calculator.fede6d4e.png": "/static/media/calculator.fede6d4e.png",
-    "static/media/gatsby.76b7e724.svg": "/static/media/gatsby.76b7e724.svg",
     "static/media/hero.2a1ab2b2.svg": "/static/media/hero.2a1ab2b2.svg",
     "static/media/proyecto1.5705ac87.jpg": "/static/media/proyecto1.5705ac87.jpg",
     "static/media/proyecto2.69bfbfc8.jpg": "/static/media/proyecto2.69bfbfc8.jpg",
@@ -24,6 +23,6 @@
     "static/js/runtime-main.14d8106f.js",
     "static/js/2.24857d5b.chunk.js",
     "static/css/main.febc527a.chunk.css",
-    "static/js/main.03f6bdfc.chunk.js"
+    "static/js/main.019e737d.chunk.js"
   ]
 }
