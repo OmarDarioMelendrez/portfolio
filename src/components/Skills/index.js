@@ -8,7 +8,6 @@ import {
 	FaNodeJs,
 } from "react-icons/fa";
 import {SiMaterialUi, SiMongodb, SiPostgresql,SiAmazonaws, SiJest} from 'react-icons/si'
-import Gatsby from "../../images/gatsby.svg";
 import "./Skills.css";
 
 function Skills() {

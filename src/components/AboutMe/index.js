@@ -17,9 +17,8 @@ function AboutMe() {
 					Quiero especializarme como backend developer, para lo cual
 					me encuentro mejorando mis skills actuales con proyectos y
 					aprendiendo las tecnologías necesarias.
-          <br/>
-          AWS, Serverles,
-					seguridad, Graph QL.
+					<br />
+					AWS, Serverles, seguridad, Graph QL.
 				</p>
 			</div>
 		</section>
