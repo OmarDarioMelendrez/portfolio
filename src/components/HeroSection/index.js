@@ -34,10 +34,7 @@ function HeroSection() {
                   .pause(750)
                   .delete(8)
                   .pause(500)
-                  .type('Desarrollador Fullstack.')
-                  .pause(500)
-                  .break({delay: 500})
-                  .type('Especializado en Backend')
+                  .type('Desarrollador Javascript.')
 
                 return instance
               }}
